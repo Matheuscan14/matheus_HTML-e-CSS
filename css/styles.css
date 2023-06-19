@@ -1,0 +1,134 @@
+/* 1 - Integracao inicial */
+h1{
+    color: blue;
+}
+
+/* 2 - Comentarios com CSS */
+
+/* 3 - id */
+h3{
+    color: green;
+}
+
+#title{
+    color: blue;
+}
+
+/* 4 - classes - .*/
+.text{
+    color:blueviolet;
+}
+
+/* 5 - background */
+.background{
+    background-color: greenyellow;
+    color:blue;
+    font-size: 30px;
+}
+
+/* 6 - dois elementos, uma regra */
+p,
+.title-small {
+    color:darkmagenta;
+}
+
+.title-small{
+    font-size: 25px;
+}
+/* 7 - background image */
+.background-image{
+    background-image: url("../img/meteoro.jpg");
+    padding: 30px;
+    color:azure;
+}
+/* 8 - largura e altura */
+#width-height{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+/* 9 - padding */
+#padding{
+    background-color: brown;
+    padding: 30px;
+}
+/* 10 - margin */
+#margin{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+/* 11 - border */
+#border{
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin: 30px;
+}
+/* 12 - border radius */
+#border-radius{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+/* 13 - cores */
+#rgb, #hsl, #hex {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#hex{
+    background-color: #00ff00;
+}
+
+#rgb{
+    background-color: rgb(200, 20, 1);
+}
+
+#hsl {
+    background-color: hsl(246, 76%, 44%) ;
+}
+
+/* 14 - alinhamento */
+#center{
+    text-align: center;
+}
+
+p{
+    font-size: 35px;
+}
+
+/* 15 - decoration */
+#unederline {
+    text-decoration: underline;
+}
+
+#line {
+    text-decoration: line-through;
+}
+
+#sem-underline {
+    text-decoration: none;
+}
+
+/* 16 - font size */
+#fonte-pequena {
+    font-size: 10px;
+}
+
+/* 17 - transform*/
+#upper {
+    text-transform: uppercase;
+}
+
+#lower {
+    text-transform: lowercase;
+}
+
+/* 18 - font family */
+
